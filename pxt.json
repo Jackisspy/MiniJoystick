@@ -1,0 +1,30 @@
+{
+    "name": "Robot1",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "mbit": "github:lzty634158/yahboom_mbit_en#ec0be625edd52ff7e5e0f4bbc92d43cb3c3205d3",
+        "GHBit": "github:lzty634158/GHBit#bbbe5f812211ee7b1576bbb046b981339dca5bbc",
+        "Mbit_IR": "github:lzty634158/yahboom_mbit_IR#1e1a812adb8fc25b89a1c8d980fe15ff15017366",
+        "Tinybit": "github:lzty634158/Tiny-bit#8f45bf6695194ebfdaccaa03e774d1bcf7dde979"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
