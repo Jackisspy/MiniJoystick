@@ -1,14 +1,14 @@
 {
-    "name": "Robot1",
+    "name": "MiniJoystick",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "mbit": "github:lzty634158/yahboom_mbit_en#ec0be625edd52ff7e5e0f4bbc92d43cb3c3205d3",
         "GHBit": "github:lzty634158/GHBit#bbbe5f812211ee7b1576bbb046b981339dca5bbc",
         "Mbit_IR": "github:lzty634158/yahboom_mbit_IR#1e1a812adb8fc25b89a1c8d980fe15ff15017366",
-        "Tinybit": "github:lzty634158/Tiny-bit#8f45bf6695194ebfdaccaa03e774d1bcf7dde979"
+        "mbit": "github:Dolphinzzx/yahboom_mbit_en#7b6f425cfe3e0bf90eab8e9e8d13171fd2751db0",
+        "Tinybit": "github:YahboomTechnology/Tiny-bitLib#V2.0.2"
     },
     "files": [
         "main.blocks",
